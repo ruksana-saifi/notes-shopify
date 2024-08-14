@@ -37,4 +37,8 @@ request(options, function(error, response){
 2. node.js
 3. Git  install git 
 4. shopify app init
+5. After installation shopify app follow termial guide and then
+6. go to the yourapp/app/
+7. here you can add new pages and modify the design usign shopify polaris
+8. 
 
