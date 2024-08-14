@@ -28,3 +28,13 @@ request(options, function(error, response){
  if(error) throw new Error(error);
  console.log(response.body);
 });
+
+
+
+
+----To create an app to shopify we need to install these things --------------
+1. shopify cli - npm install -g @shopify/cli@latest
+2. node.js
+3. Git  install git 
+4. shopify app init
+
