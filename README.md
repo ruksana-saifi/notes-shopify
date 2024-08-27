@@ -40,5 +40,19 @@ request(options, function(error, response){
 5. After installation shopify app follow termial guide and then
 6. go to the yourapp/app/
 7. here you can add new pages and modify the design usign shopify polaris
-8. 
+
+
+------- when we need to connect shopify to github ---------------
+
+cd path/to/your/project
+shopify theme list
+shopify theme pull
+
+cd path/to/your/local/theme
+git init
+git remote add origin <repository-url>
+git add .
+git commit -m "Initial commit of Shopify theme"
+git push -u origin master  # or git push -u origin main
+
 
